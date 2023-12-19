@@ -5,7 +5,6 @@ import java.util.Set;
 
 public class HashSet<T> implements Set<T> {
     private HashMap<T,Boolean> map = new HashMap<>();
-
     @Override
     public int size(){
         return map.size();

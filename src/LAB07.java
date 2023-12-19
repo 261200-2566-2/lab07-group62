@@ -13,5 +13,6 @@ public class LAB07 {
         System.out.println(set);
         set.remove("Josh");
         System.out.println(set);
+
     }
 }
